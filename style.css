@@ -71,6 +71,31 @@ html,body {
     margin-top: 12%;
     opacity: 0.5;
 }
+/* 字体替代方案，原在线字体方案免费版竟然每月限定使用次数。。。*/
+.secondaryPage1 {
+    background-image: url(/Pic/page1.png);
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+}
+.secondaryPage2 {
+    background-image: url(/Pic/page2.png);
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+}
+.secondaryPage3 {
+    background-image: url(/Pic/page3.png);
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+}
+.secondaryPage4 {
+    background-image: url(/Pic/page4.png);
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+}
 
 /* 子页面一 */
 .page1stage {
@@ -259,6 +284,7 @@ html,body {
 }
 .page3introduction > * {
     margin: 6px;
+    margin-right: 50px;
 }
 .page3introduction div:nth-child(1) {
     font-size: 2em;
@@ -293,15 +319,24 @@ html,body {
 .page4header {
     position: relative;
     overflow: visible;
-    width:45%;
+    width:820px;
+    height: 99px;
     border-radius: 5px;
     background-color: white;
     border: 10px solid #F7F7F7;
     display: flex;
     justify-content: center;/*项目在主轴上的对齐方式*/
     align-items: flex-start;/*项目在交叉轴上的对齐方式*/
-    flex-direction: column;
+    flex-direction: column; 
 }
+/* 字体替代方案 */
+.page4headerpic {
+    background-image: url(/Pic/page4info.png);
+    background-size: contain;
+    width: 795px;
+    height: 100px;
+}
+/* 原在线字体方案(免费版竟然每月限定使用次数。。。) */
 .page4header div:nth-child(1) {
     font-size: 2em;
     margin: 3px 0px 0px 3px;
@@ -316,7 +351,7 @@ html,body {
     padding: 0;
 }
 .bookmarkslist li {
-    font-size: 1.2em;
+    font-size: 1.3em;
     background:white;
     list-style: none;
     border-bottom: 1px solid #D8D8D8;
