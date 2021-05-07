@@ -73,13 +73,13 @@ html,body {
 }
 /* 字体替代方案，原在线字体方案免费版竟然每月限定使用次数。。。*/
 .secondaryPage1 {
-    background-image: url(/Pic/page1.png);
+    background-image: url(./Pic/page1.png);
     background-size: contain;
     width: 150px;
     height: 150px;
 }
 .secondaryPage2 {
-    background-image: url(/Pic/page2.png);
+    background-image: url(./Pic/page2.png);
     background-size: contain;
     width: 150px;
     height: 150px;
