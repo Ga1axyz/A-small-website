@@ -85,13 +85,13 @@ html,body {
     height: 150px;
 }
 .secondaryPage3 {
-    background-image: url(/Pic/page3.png);
+    background-image: url(./Pic/page3.png);
     background-size: contain;
     width: 150px;
     height: 150px;
 }
 .secondaryPage4 {
-    background-image: url(/Pic/page4.png);
+    background-image: url(./Pic/page4.png);
     background-size: contain;
     width: 150px;
     height: 150px;
@@ -107,7 +107,7 @@ html,body {
     background-image: linear-gradient(45deg,#99ccff6b,#ff99995d);
 }
 .myPhoto {
-    background-image: url("/Pic/myPhoto.png");
+    background-image: url("./Pic/myPhoto.png");
     width: 330px;
     height: 330px;
     margin-bottom: 8px;
@@ -305,7 +305,7 @@ html,body {
 /* 子页面四 */
 .page4stage {
     /* background-color: hsla(193, 30%, 64%, 0.78); */
-    background-image: url(/Pic/page4backPic.png);
+    background-image: url(./Pic/page4backPic.png);
     width: 100%;
     height: 100%;
     margin:0;
@@ -331,7 +331,7 @@ html,body {
 }
 /* 字体替代方案 */
 .page4headerpic {
-    background-image: url(/Pic/page4info.png);
+    background-image: url(./Pic/page4info.png);
     background-size: contain;
     width: 795px;
     height: 100px;
