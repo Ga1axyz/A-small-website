@@ -8,5 +8,6 @@ function caidan (e){
     if(e.keyCode == 88) heihei += 4; else heihei -= 1;
     if(e.keyCode == 89) heihei += 4; else heihei -= 1;
     if(e.keyCode == 90) heihei += 2; else heihei -= 1;
-    if(heihei == -1) window.location.href="X.html";
+    if(e.keyCode == 189 && e.shiftKey) heihei += 1; else heihei -= 1;
+    if(heihei == -20) window.location.href="X.html";
 }
